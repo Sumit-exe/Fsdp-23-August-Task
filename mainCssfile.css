@@ -1,0 +1,49 @@
+@import url(./colors.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+}
+
+header h1{
+    color: var(--primary-text-color);
+    font-weight: 800;
+}
+header h1 span{
+    color: var(--main-color);
+}
+header ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+
+}
+
+header ul a{
+    text-decoration:none ;
+}
+header ul li{
+    list-style: none ;
+    color: var(--primary-text-color);
+    font-weight: 600;
+}
+
+header button{
+    border: 0;
+    background-color: var(--main-color);
+    padding: .8rem 1.4rem;
+    border-radius: .3rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--primary-text-color);
+}
